@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b3f601-1bb3-4765-97e7-2965b8381d29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/game/entities/NonStickObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/game/entities/RoughFloor.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/game/entities/StickyWall.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/GuideDot.js" afterPath="$PROJECT_DIR$/lib/game/entities/GuideDot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/SquishKitten.js" afterPath="$PROJECT_DIR$/lib/game/entities/SquishKitten.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/main.js" afterPath="$PROJECT_DIR$/lib/game/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/levels/main.js" afterPath="$PROJECT_DIR$/lib/game/levels/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HTML5Test_Brandon.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372710184040" ignored="false" />
+    <file path="/Dummy.txt" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372711184400" ignored="false" />
     <file path="/index.html" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372703631433" ignored="false" />
     <file path="/main.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372709848681" ignored="false" />
     <file path="/a.dummy" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372709403586" ignored="false" />
     <file path="/Camera.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372709971458" ignored="false" />
+    <file path="/SquishKitten.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372715641579" ignored="false" />
+    <file path="/SlickFloor.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372717459899" ignored="false" />
+    <file path="/RoughFloor.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372714953876" ignored="false" />
+    <file path="/NonStickObject.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372717366482" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +44,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="350" selection-end="350" vertical-scroll-proportion="-0.625">
+            <state line="20" column="24" selection-start="350" selection-end="350" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/game/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="305" selection-end="305" vertical-scroll-proportion="0.17423312">
+            <state line="26" column="34" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -51,25 +62,52 @@
       <file leaf-file-name="SquishKitten.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/game/entities/SquishKitten.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="167" selection-end="185" vertical-scroll-proportion="0.0">
+            <state line="133" column="36" selection-start="4981" selection-end="4981" vertical-scroll-proportion="-18.384615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paddle-cpu.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game/entities/pong/paddle-cpu.js">
+      <file leaf-file-name="entity.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/impact/entity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="14" selection-start="101" selection-end="407" vertical-scroll-proportion="0.0">
+            <state line="112" column="13" selection-start="2432" selection-end="2432" vertical-scroll-proportion="-6.6538463">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game/utilities/Camera.js">
+      <file leaf-file-name="GuideDot.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/GuideDot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+            <state line="13" column="29" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonStickObject.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/NonStickObject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="48" selection-start="285" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoughFloor.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/RoughFloor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="46" selection-start="280" selection-end="280" vertical-scroll-proportion="0.22670025">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlickFloor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/SlickFloor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="46" selection-start="274" selection-end="279" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,14 +135,21 @@
         <option value="$PROJECT_DIR$/lib/game/entities/jetroid/camera.js" />
         <option value="$PROJECT_DIR$/lib/plugins/jetroid/camera.js" />
         <option value="$PROJECT_DIR$/lib/game/utilities/Camera.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/StickyWall.js" />
         <option value="$PROJECT_DIR$/lib/game/main.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/NonStickObject.ts" />
+        <option value="$PROJECT_DIR$/lib/game/entities/SquishKitten.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/NonStickObject.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/GuideDot.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/SlickFloor.js" />
+        <option value="$PROJECT_DIR$/lib/game/entities/RoughFloor.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="72" />
-    <option name="width" value="1237" />
+    <option name="x" value="7" />
+    <option name="y" value="118" />
+    <option name="width" value="1163" />
     <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -208,6 +253,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="impact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML5Test_Brandon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML5Test_Brandon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -230,7 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utilities" />
+              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,23 +353,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="72" width="1237" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="7" y="118" width="1163" height="963" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26771006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28421053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -375,6 +438,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/game/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/SquishKitten.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -398,42 +475,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/pong/paddle-cpu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="203" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="350" selection-end="350" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/SquishKitten.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="167" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/pong/paddle-cpu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="101" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="65" selection-start="203" selection-end="246" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/utilities/Camera.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+        <state line="19" column="16" selection-start="399" selection-end="399" vertical-scroll-proportion="-0.23312883" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/pong/paddle-cpu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="56" selection-start="51" selection-end="51" vertical-scroll-proportion="0.055214725" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="350" selection-end="350" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="305" selection-end="305" vertical-scroll-proportion="0.17423312">
+        <state line="26" column="34" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/SquishKitten.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="36" selection-start="4981" selection-end="4981" vertical-scroll-proportion="-18.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/impact/entity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="13" selection-start="2432" selection-end="2432" vertical-scroll-proportion="-6.6538463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/NonStickObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="48" selection-start="285" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/GuideDot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/SlickFloor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="274" selection-end="279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/RoughFloor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="280" selection-end="280" vertical-scroll-proportion="0.22670025">
           <folding />
         </state>
       </provider>
