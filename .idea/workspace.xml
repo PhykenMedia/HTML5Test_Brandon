@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16b3f601-1bb3-4765-97e7-2965b8381d29" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="16b3f601-1bb3-4765-97e7-2965b8381d29" name="Default" comment="" />
     <ignored path="HTML5Test_Brandon.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372772870110" ignored="false" />
@@ -15,6 +13,7 @@
     <file path="/SlickFloor.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372717459899" ignored="false" />
     <file path="/RoughFloor.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372714953876" ignored="false" />
     <file path="/NonStickObject.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372717366482" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372773261451" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquishKitten.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SquishKitten.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/game/entities/SquishKitten.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="21" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.45876288">
+            <state line="119" column="21" selection-start="4265" selection-end="4265" vertical-scroll-proportion="-13.692307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonStickObject.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/game/entities/NonStickObject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="48" selection-start="446" selection-end="446" vertical-scroll-proportion="0.38650307">
               <folding />
             </state>
           </provider>
@@ -462,30 +470,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/SlickFloor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="274" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/RoughFloor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="38" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game/entities/NonStickObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="100" selection-end="100" vertical-scroll-proportion="0.09469697">
           <folding />
         </state>
       </provider>
@@ -506,7 +493,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/game/entities/SquishKitten.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="21" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.45876288">
+        <state line="119" column="21" selection-start="4265" selection-end="4265" vertical-scroll-proportion="-13.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/SlickFloor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="432" selection-end="432" vertical-scroll-proportion="0.3598485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/RoughFloor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="280" selection-end="280" vertical-scroll-proportion="0.2208589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game/entities/NonStickObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="446" selection-end="446" vertical-scroll-proportion="0.38650307">
           <folding />
         </state>
       </provider>
