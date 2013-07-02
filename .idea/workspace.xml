@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b3f601-1bb3-4765-97e7-2965b8381d29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/game/entities/KillBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/game/entities/LevelButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/game/entities/WinBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/entities/SquishKitten.js" afterPath="$PROJECT_DIR$/lib/game/entities/SquishKitten.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/main.js" afterPath="$PROJECT_DIR$/lib/game/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/game/levels/main.js" afterPath="$PROJECT_DIR$/lib/game/levels/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HTML5Test_Brandon.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372777208783" ignored="false" />
+    <file path="/Dummy.txt" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372782133524" ignored="false" />
     <file path="/index.html" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372703631433" ignored="false" />
     <file path="/main.js" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372781297135" ignored="false" />
     <file path="/a.dummy" changelist="16b3f601-1bb3-4765-97e7-2965b8381d29" time="1372709403586" ignored="false" />
@@ -358,7 +352,11 @@
       <created>1372777212662</created>
       <updated>1372777212662</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Victory and Defeat: Now in Box Form">
+      <created>1372782137933</created>
+      <updated>1372782137934</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -426,7 +424,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ceiling cling, no resticks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Victory and Defeat: Now in Box Form" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -446,6 +444,7 @@
     <MESSAGE value="Angle Constraints" />
     <MESSAGE value="Bouncy Floor" />
     <MESSAGE value="Ceiling cling, no resticks" />
+    <MESSAGE value="Victory and Defeat: Now in Box Form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
